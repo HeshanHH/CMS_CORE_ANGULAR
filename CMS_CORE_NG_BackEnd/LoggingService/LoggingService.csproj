@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <!--because using asp.net core-->
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+	  <!--write the log in to a file-->
+	  <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+	  <!--to rint the log async-->
+	  <PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
+	  <!--to log into the console-->
+	  <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+	  <!--to configure our logs-->
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
