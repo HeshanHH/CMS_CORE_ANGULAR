@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CMS_CORE_NG
+namespace CMS_CORE_NG_BackEnd
 {
     public class Program
     {

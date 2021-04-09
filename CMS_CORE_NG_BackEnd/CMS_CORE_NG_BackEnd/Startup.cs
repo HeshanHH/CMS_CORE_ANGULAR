@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CMS_CORE_NG
+namespace CMS_CORE_NG_BackEnd
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace CMS_CORE_NG
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CMS_CORE_NG", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CMS_CORE_NG_BackEnd", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace CMS_CORE_NG
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CMS_CORE_NG v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CMS_CORE_NG_BackEnd v1"));
             }
 
             app.UseHttpsRedirection();

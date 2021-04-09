@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CMS_CORE_NG.Controllers
+namespace CMS_CORE_NG_BackEnd.Controllers
 {
     [ApiController]
     [Route("[controller]")]

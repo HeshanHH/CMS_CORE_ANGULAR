@@ -1,6 +1,6 @@
 using System;
 
-namespace CMS_CORE_NG
+namespace CMS_CORE_NG_BackEnd
 {
     public class WeatherForecast
     {

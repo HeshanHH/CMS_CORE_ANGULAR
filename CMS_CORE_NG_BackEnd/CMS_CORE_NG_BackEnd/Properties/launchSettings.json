@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:52232",
-      "sslPort": 44368
+      "applicationUrl": "http://localhost:54548",
+      "sslPort": 44390
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CMS_CORE_NG": {
+    "CMS_CORE_NG_BackEnd": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

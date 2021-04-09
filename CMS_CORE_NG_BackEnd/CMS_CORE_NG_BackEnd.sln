@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_CORE_NG", "CMS_CORE_NG\CMS_CORE_NG.csproj", "{51894E24-1EDA-445A-A16C-078619CAC3BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_CORE_NG_BackEnd", "CMS_CORE_NG_BackEnd\CMS_CORE_NG_BackEnd.csproj", "{520B970E-9C74-4A1C-B094-9C15DD0BB13A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{51894E24-1EDA-445A-A16C-078619CAC3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51894E24-1EDA-445A-A16C-078619CAC3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51894E24-1EDA-445A-A16C-078619CAC3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51894E24-1EDA-445A-A16C-078619CAC3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520B970E-9C74-4A1C-B094-9C15DD0BB13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520B970E-9C74-4A1C-B094-9C15DD0BB13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520B970E-9C74-4A1C-B094-9C15DD0BB13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520B970E-9C74-4A1C-B094-9C15DD0BB13A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7E9A0DCA-03C0-49D5-9468-4EC1E2931DC3}
+		SolutionGuid = {003AE7C0-0D30-4701-B7CE-B923AF99A754}
 	EndGlobalSection
 EndGlobal
